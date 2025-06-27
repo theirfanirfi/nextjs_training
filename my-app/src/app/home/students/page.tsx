@@ -49,7 +49,7 @@ const Page = () => {
             </div>
         <h1>Display Students</h1>
         <ul>
-            {students != null && students.map(std => <li>{std.name}</li>)}
+            {students != null && students.map(std => <li>{std.email}</li>)}
         </ul>
         </>
 

@@ -29,7 +29,7 @@ const Page = async () => {
         <>
         <h1>Display Students</h1>
         <ul>
-            {students && students.map(std => <li>{std.name}</li>)}
+            {students && students.map(std => <li>{std.email}</li>)}
         </ul>
         </>
 
